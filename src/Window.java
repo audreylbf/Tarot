@@ -1,5 +1,11 @@
 import javax.swing.JFrame;
 
+/**
+ * 
+ * @author 33674
+ *
+ */
+
 public class Window extends JFrame{
 	
 	WindowContainer panel;
@@ -13,8 +19,8 @@ public class Window extends JFrame{
 		this.setSize(600,350);
 		this.setResizable(false);
 		this.setLocationRelativeTo(null);
+		setTitle("TAROT GAME");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setAlwaysOnTop(true);
 		panel = new WindowContainer();
 		this.setContentPane(panel);
 	}
