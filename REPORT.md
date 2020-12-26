@@ -62,3 +62,17 @@ M --> N(Card)
 N --> O(Edit this card)
 N --> P(Delete this card)
 ```
+### Read the futur.
+
+First, the user is allowed to enter a **question**. Then, after **mixing** the package, the user clicks on the "draw a card" button and a **random** draw is made, displaying the card drawn by the player.
+
+The four draws are, of course, random. As in a physical draw, it is the consultant who draws randomly among a pack of cards.
+
+To read the future, we must create several "**situations**" with *if*, so that the second card depends on the first, the third on the second and so on.
+
+It is necessary to take into account the *different meanings* recorded for the card, that of the past, that of the present and that of the future, and to reveal the one on which the question concerns. To "capture" the subject of the question, we retrieve the text entered by the user and we see if he understands the term "future", "present", or "past". Based on that, we use if to tell him what he wants to know.
+
+## Problems encountered 
+
+The difficulty of this project lies in the link between the graphical interface and class methods. Indeed, I had trouble understanding how to call my methods within the graphical interfaces and how to use them.
+
